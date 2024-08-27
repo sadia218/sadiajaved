@@ -1,16 +1,16 @@
-import Image from "next/image";
+import image from 'next/image';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-<div><figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-  <img className="w-24 h-24 square-full mx-auto" src="/pak1.png" alt="" width="384" height="512"></img>
+<div></div><figure></figure> className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800"
+<img/>className="w-24 h-24 square-full mx-auto" src="/pak1.png" alt="" width="380" height="520"/Image/&gt;
   <div className="pt-6 md:p-8 text-center space-y-4">
     <blockquote>
       <p className="text-lg font-medium">
-        “Tailwind CSS is the only framework that I've seen scale
-        on large teams. It’s easy to customize, adapts to any design,
-        and the build size is tiny.”
+      "Tailwind CSS is the only framework that I've seen scale
+        on large teams. It's easy to customize, adapts to any design,
+        and the build size is tiny."
       </p>
     </blockquote>
     <figcaption className="font-medium">
@@ -22,7 +22,7 @@ export default function Home() {
       </div>
     </figcaption>
   </div>
-</figure></div>
+<div></div>
     </main>
   );
 }
